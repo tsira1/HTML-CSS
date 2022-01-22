@@ -1,0 +1,110 @@
+@font-face{
+    font-family: cardhead2;
+    src: url(../fonts/OpenSans-Bold.ttf) ;
+}
+
+.cards{
+
+    background-color: rgba(112, 128, 144, 0.164);
+    background-position: center;
+    margin: 50px;
+}
+
+.cardbody1{
+
+    width: 270px;
+    box-shadow: 3px 3px 6px rgb(109, 106, 106);
+    display: inline-block;
+    margin-left: 135px;
+    margin-top: 95px;
+    margin-bottom: 95px;
+    margin-right: 5px;
+    
+
+}
+.cardbody2{
+
+    width: 270px;
+    box-shadow: 3px 3px 6px rgb(109, 106, 106);
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 95px;
+    margin-bottom: 95px;
+    margin-right: 5px;
+    
+
+}
+.cardbody3{
+
+    width: 270px;
+    box-shadow: 3px 3px 6px rgb(109, 106, 106);
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 95px;
+    margin-bottom: 95px;
+    margin-right: 135px;
+    
+
+}
+
+.cardbody1 img {
+
+   width: 100%;
+   
+   
+}
+.cardbody2 img {
+
+    width: 100%;
+    
+    
+ }
+ .cardbody3 img {
+
+    width: 100%;
+    
+    
+ }
+
+
+
+.cardhead1 {
+
+    margin: 0;
+    text-align: center;
+    
+}
+
+.cardhead2 {
+
+     margin: 2px;
+    text-align: center;
+    color: chocolate;
+    font-family: cardhead2;
+   
+}
+
+.cardtext {
+    margin: 2px;
+    padding: 7px;
+    text-align: justify;
+    
+}
+
+.more{
+    margin: 1px;
+    padding: 5px;
+    background-color: tomato;
+    color: whitesmoke;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin-bottom: 7px;
+    margin-left: 5px;
+    margin: none;
+    font-family: cardhead2;
+    font-size: small;
+    
+}
+
+

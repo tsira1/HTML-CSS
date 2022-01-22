@@ -1,0 +1,30 @@
+.container{
+
+ width: 900px;
+ height: 400px;
+ background-color: rgb(25, 149, 231);
+ list-style: none;
+
+ margin-block-start: 0;
+ margin-block-end: 0;
+ margin-left: 170px;
+ 
+ 
+
+}
+
+form{
+
+    justify-content: center;
+       
+        
+}
+
+li{
+    display: flex;
+    padding-top: 2px;
+    padding-bottom: 3px;
+       
+    
+}
+

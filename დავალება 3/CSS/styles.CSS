@@ -1,0 +1,47 @@
+@font-face {
+    font-family: heads;
+    src: url(../Fonts/orange\ juice\ 2.0.ttf);
+}
+
+
+body{
+    
+    background-color: rgba(0, 0, 0, 0.993);
+    background-image: url(../Ticket\ für\ die\ Tower\ Bridge\ in\ London.jpg);
+    background-position: center 5%;
+
+    background-repeat: no-repeat;
+
+}
+
+.centercontent{
+
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 600px;
+    height: 400px;
+    
+    position: absolute;
+    top: 26%;
+    left: 27%;
+
+}
+.headtext{
+    font-family: heads;
+    color: snow;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.bodytext{
+
+color: floralwhite;  
+font-weight: bold;  
+margin-left: 25px;
+margin-right: 25px;
+
+}
+
+
+    
+    
+    

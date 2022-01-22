@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Headers;
+    src: url(./fonts/OpenSans-Bold.ttf)
+
+}
+
+
+.start{
+
+    background-color: black;
+    width: 1000px;
+    height: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 100%;
+  
+}
+h5{
+    color: ghostwhite;
+    display: inline;
+}
+
+.welcome{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;   
+    width: 1000px;
+    height: 240px;
+    max-width: 100%;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+}
+
+.line1{
+    margin-top: 80px;
+    margin-bottom: 2px;
+    color: floralwhite;
+}
+
+.line2{
+    margin-top: 2px;
+    color: floralwhite;
+    font-size: 13px;
+    }
+
+    button{
+
+        padding: 8px;
+        color: black;
+        border-radius: 5px;
+        border: none;
+        }
+
+.about{
+
+    justify-content: center;
+    padding-left: 290px;
+    padding-right: 290px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    max-width: 100%;
+    
+}
+
+
+.navbarlink{
+    text-decoration: none;
+    color: lavenderblush;
+    font-size: 13px;
+}
+.navbarli{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}

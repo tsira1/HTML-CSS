@@ -1,0 +1,146 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    
+}
+
+
+.outerbox{
+    margin-top: 60px;
+    width: 800px;
+    height: 400px;
+    background-color: rgba(194, 184, 184, 0.438);
+    position: relative;
+    text-align: center;
+   
+    
+}
+
+.card1{
+    width: 240px;
+    height: 340px;
+    background-color: hsl(0, 0%, 96%);
+    display: inline-block;
+    border: 1px solid;
+    margin: 20px 20px;
+    vertical-align: top;
+    text-align: left;
+    box-shadow: 2px 2px rgba(51, 50, 51, 0.603);
+    
+
+
+    
+}
+
+.card2{
+    width: 240px;
+    height: 340px;
+    background-color: hsl(0, 0%, 96%);
+    display: inline-block;
+    border: 1px solid;
+    margin: 20px 20px;
+    vertical-align: top;
+    text-align: left;
+    position: relative;
+    box-shadow: 2px 2px rgba(51, 50, 51, 0.603);
+    }
+
+.card1 img{
+
+    display: block;
+    margin: auto;
+    width: 100%;
+    
+       
+}
+
+.card2 img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    
+    
+}
+h3,h6{
+    margin-block-start: 0;
+    margin-block-end: 0;
+   
+}
+
+.cardbody1{
+
+    font-family: Arial, Helvetica, sans-serif ;
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: white;
+    position: relative;
+}
+.cardbody2{
+
+    font-family: Arial, Helvetica, sans-serif ;
+    padding: 20px;
+    padding-bottom: 7px;
+    background-color: white;
+    position: relative;
+    top: -60px;
+}
+.price{
+    color: rgb(6, 153, 6) !important;
+    float: right;
+    font-size: 19px !important;
+    
+}
+.cardbody1 span{
+    color: grey;
+    font-size: 14px;
+}
+.cardbody2 span{
+    color: grey;
+    font-size: 14px;
+}
+
+.sizes{
+    margin-top: 15px;
+}
+.colours{
+    margin-top: 15px;
+}
+.colour{
+    border-radius: 10px;
+    height: 12px;
+    border-style: none;
+}
+.img2{
+    position: relative;
+}
+.overimg{
+    background-color: rgba(5, 71, 49, 0.336);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+.view{
+    z-index: 999;
+    position: absolute !important;
+    top: 28%;
+    left: 27%;
+    background-color: none;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 2px 2px;
+
+
+
+}
